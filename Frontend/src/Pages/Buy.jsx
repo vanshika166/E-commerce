@@ -48,15 +48,6 @@ const Buy = () => {
       <nav className="flex fixed w-full bg-[#EDEEE9] z-10 px-4 items-center justify-between py-2">
         <h1 className="text-2xl font-medium">HE & SHE</h1>
 
-        <div className="h-[2.5rem] w-[30%] bg-white p-2 rounded-lg text-black font-medium flex items-center justify-center">
-          <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
-          <input
-            type="text"
-            placeholder="Search"
-            className="focus:outline-none h-full border-none w-full p-2 font-arial"
-          />
-        </div>
-
         {/* icons */}
         <div className="flex items-center justify-center gap-x-6 text-xl">
           {/* User Menu */}
