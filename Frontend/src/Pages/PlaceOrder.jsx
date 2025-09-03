@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NavThrough from '../Components/navThrough'
+import NavThrough from '../Components/NavThrough'
 import Payment from '../Components/Payment'
 import OrderSummary from '../Components/OrderSummary'
 import { motion } from 'framer-motion'
