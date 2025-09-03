@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import { useNavigate, useParams } from "react-router-dom";
 import { productDataContext } from "../Context/ProductContext";
 import Bottom from "../Components/Bottom";
-import { pageDataContext } from "../Context/pageContext.jsx";
+import { pageDataContext } from "../Context/PageContext.jsx";
 import Cart from "../Components/Cart.jsx";
 import { userDataContext } from "../Context/UserContext.jsx";
 import { motion } from "framer-motion";
