@@ -3,9 +3,9 @@ import Footer from './Footer'
 import Navigation2 from '../Components/Navigation2'
 import { productDataContext } from '../Context/ProductContext'
 import { useNavigate } from 'react-router-dom'
-import { pageDataContext } from '../Context/pageContext.jsx'
+import { pageDataContext } from '../Context/PageContext.jsx'
 import Cart from '../Components/Cart.jsx'
-import DropDown from '../Components/dropDown.jsx'
+import DropDown from '../Components/DropDown.jsx'
 import { motion } from 'framer-motion'
 
 const Shop = () => {
