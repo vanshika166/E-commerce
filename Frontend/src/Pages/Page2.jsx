@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Services from '../Components/Services'
-import Page3 from './Page3.jsx'
+import Page3 from './page3.jsx'
 import Page4 from './Page4.jsx'
 import Page5 from './Page5.jsx'
 import Page6 from './Page6.jsx'
