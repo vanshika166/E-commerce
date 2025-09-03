@@ -1,5 +1,5 @@
 
-import NavThrough from './navThrough';
+import NavThrough from './NavThrough';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
