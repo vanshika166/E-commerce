@@ -5,8 +5,8 @@ import Navigation2 from '../Components/Navigation2'
 import { productDataContext } from '../Context/ProductContext'
 import Bottom from '../Components/Bottom'
 import Cart from '../Components/Cart.jsx'
-import { pageDataContext } from '../Context/pageContext.jsx'
-import DropDown from '../Components/dropDown.jsx'
+import { pageDataContext } from '../Context/PageContext.jsx'
+import DropDown from '../Components/DropDown.jsx'
 import { motion } from 'framer-motion'
 
 const Men = () => {
