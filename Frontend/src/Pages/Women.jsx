@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom'
 import Navigation2 from '../Components/Navigation2.jsx'
 import { productDataContext } from '../Context/ProductContext.jsx'
 import Bottom from '../Components/Bottom.jsx'
-import { pageDataContext } from '../Context/pageContext.jsx'
+import { pageDataContext } from '../Context/PageContext.jsx'
 import Cart from '../Components/Cart.jsx'
-import DropDown from '../Components/dropDown.jsx'
+import DropDown from '../Components/DropDown.jsx'
 import {motion} from 'framer-motion'
 
 const Women = () => {
