@@ -5,7 +5,7 @@ import Button from '../Components/Button'
 import { BsArrowUpRight } from "react-icons/bs"
 import { useNavigate } from 'react-router-dom'
 
-const page3 = ({mode}) => {
+const Page3 = ({mode}) => {
     const navigate = useNavigate()
     return (
         <div className={`min-h-screen w-full flex items-center justify-center px-2 py-8 bg-[#EDEEE9]`}>
@@ -42,4 +42,4 @@ const page3 = ({mode}) => {
     )
 }
 
-export default page3
+export default Page3
