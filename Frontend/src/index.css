@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html,body{
+    font-family: 'Clash Display', sans-serif;
+}
+.threads{
+    font-family: "Gugi", sans-serif;
+}
+.font-Satoshi{
+    font-family: 'Satoshi', sans-serif;
+}
+.font-Gugi{
+    font-family: 'Gugi', sans-serif;
+}
