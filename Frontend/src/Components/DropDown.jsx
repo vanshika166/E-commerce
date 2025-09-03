@@ -3,7 +3,7 @@ import React, {useContext} from 'react'
 import axios from 'axios'
 import { authDatacontext } from '../Context/AuthContext.jsx'
 import { userDataContext } from '../Context/UserContext.jsx'
-import { pageDataContext } from '../Context/pageContext.jsx'
+import { pageDataContext } from '../Context/PageContext.jsx'
 import { useNavigate } from 'react-router-dom'
 
 const DropDown = () => {
