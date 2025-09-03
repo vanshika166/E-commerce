@@ -1,7 +1,7 @@
 import  { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { productDataContext } from "../Context/ProductContext";
-import { pageDataContext } from "../Context/pageContext";
+import { pageDataContext } from "../Context/PageContext";
 import { userDataContext } from "../Context/UserContext";
 import toast from "react-hot-toast";
 
