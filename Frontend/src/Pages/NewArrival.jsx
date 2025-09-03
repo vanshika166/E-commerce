@@ -6,7 +6,7 @@ import Cart from '../Components/Cart.jsx'
 import Footer from './Footer'
 import Bottom from '../Components/Bottom'
 import { pageDataContext } from '../Context/PageContext.jsx'
-import DropDown from '../Components/dropDown.jsx'
+import DropDown from '../Components/DropDown.jsx'
 import { motion } from 'framer-motion'
 
 const NewArrival = () => {
