@@ -83,7 +83,7 @@ const Shop = () => {
                 </div>
 
                 {/* filter for small screens: */}
-                <div className='sm:hidden w-full mb-5 overflow-x-scroll mt-10 text-sm items-center justify-between gap-x-5 p-2 bg-[#AC9C8D]/50 flex flex-nowrap'>
+                <div className='sm:hidden w-full mb-5 overflow-x-scroll mt-[5rem] text-sm items-center justify-between gap-x-5 p-2 bg-[#AC9C8D]/50 flex flex-nowrap'>
                     {[
                         'All products',
                         'Men',
