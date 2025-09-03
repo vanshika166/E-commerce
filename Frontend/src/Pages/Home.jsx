@@ -6,7 +6,7 @@ import DropDown from "../Components/DropDown.jsx";
 import Page2 from "./Page2.jsx";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
-import { pageDataContext } from "../Context/pageContext.jsx";
+import { pageDataContext } from "../Context/PageContext.jsx";
 
 const Home = () => {
   const { cart, dropMenu, handleCart, handleDropMenu, setDropMenu } =
