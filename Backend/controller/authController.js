@@ -24,8 +24,8 @@ export const signUP = async (req, res) => {
         console.log(token)
         res.cookie("token", token, {
             httpOnly: true,
-            secure: false,
-            sameSite: "Strict",
+            secure: true,
+            sameSite: "none",
             maxAge: 7 * 24 * 60 * 60 * 1000
         })
         res.status(201).json(user)
@@ -53,8 +53,8 @@ export const login = async (req, res) => {
         console.log(token)
         res.cookie("token", token, {
             httpOnly: true,
-            secure: false,
-            sameSite: "Strict",
+            secure: true,
+            sameSite: "none",
             maxAge: 7 * 24 * 60 * 60 * 1000
         })
         res.status(200).json(user)
@@ -84,8 +84,8 @@ export const googleSignup = async (req, res) => {
             console.log(token)
             res.cookie("token", token,{
                 httpOnly: true,
-                secure: false,
-                sameSite: "Strict",
+                secure: true,
+                sameSite: "none",
                 maxAge: 7 * 24 * 60 * 60 * 1000
             })
             res.status(201).json(user)
@@ -101,9 +101,9 @@ export const adminLogin = async(req,res)=>{
      if(email === process.env.ADMIN_EMAIL && password === process.env.ADMIN_PASSWORD){
         const token = adminToken(email)
         res.cookie("token",token,{
-            httpOnly:true,
-            secure:false,
-            sameSite:"lax",
+            httpOnly: true,
+            secure: true,
+            sameSite: "none",
             maxAge:7*24*60*60*1000
         })
         res.status(200).json(token)
