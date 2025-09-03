@@ -5,7 +5,7 @@ import { productDataContext } from "../Context/ProductContext.jsx";
 import Footer from '../Pages/Footer.jsx'
 import Navigation2 from '../Components/Navigation2.jsx'
 import { wishDataContext } from "../Context/WishlistContext.jsx";
-import { pageDataContext } from "../Context/pageContext.jsx";
+import { pageDataContext } from "../Context/PageContext.jsx";
 import Cart from "../Components/Cart.jsx";
 import DropDown  from '../Components/DropDown.jsx';
 const Wishlist = () => {
