@@ -2,7 +2,7 @@ import  { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { productDataContext } from "../Context/ProductContext";
 import { userDataContext } from "../Context/UserContext.jsx";
-import { pageDataContext } from "../Context/pageContext";
+import { pageDataContext } from "../Context/PageContext";
 
 const Navigation2 = ({ mode, handleMode }) => {
   const { userData } = useContext(userDataContext);
