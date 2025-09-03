@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Navigation from "../Components/Navigation";
 import Cart from "../Components/Cart.jsx";
-import DropDown from "../Components/dropDown.jsx";
+import DropDown from "../Components/DropDown.jsx";
 import Page2 from "./Page2.jsx";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
