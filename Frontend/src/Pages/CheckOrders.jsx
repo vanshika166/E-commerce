@@ -2,11 +2,11 @@ import React, { useContext, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navigation2 from '../Components/Navigation2.jsx';
 import { authDatacontext } from '../Context/AuthContext.jsx';
-import { pageDataContext } from '../Context/pageContext.jsx'
+import { pageDataContext } from '../Context/PageContext.jsx'
 import Cart from '../Components/Cart.jsx'
 import axios from 'axios';
 import { motion } from 'framer-motion';
-import DropDown from '../Components/dropDown.jsx';
+import DropDown from '../Components/DropDown.jsx';
 
 
 const CheckOrders = () => {
