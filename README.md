@@ -80,5 +80,5 @@ The platform focuses on usability, performance, and real-world scalability.
 
 ---
 
-## 👩‍💻 Developed By **Vanshika **
+## 👩‍💻 Developed By Vanshika 
 
